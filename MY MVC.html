@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY MVC</title>
+  	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/stylz.css" />
+	<script src="js/signals.js"></script>
+	<script src="js/myTPlates.js"></script>
+</head>
+<body>
+
+  <section id="wgt">
+	<div class="container">
+		<header id="t1"> ~>{ User.get("title") :} </header>
+		<fieldset>
+			<legend id="t2">
+				~>{ User.get("subTitle") :}
+			</legend>
+			<h9 id="lbl" class="lbl">name1 name2 age occupation skills subTitle title</h9>
+			<input class="prps" id="props" type="text" placeholder="props"></input>
+			<input id="tgl" type="text" placeholder="name1 name2 age occupation skills subTitle title"></input>
+			<button id="btn">+</button><hr>
+			<b>
+				Name: <span id="t3"> ~>{ User.get("name1") +" "+ User.get("name2") :} </span>
+				</br>
+				 Age: <span id="t4"> ~>{ User.get("age") :} </span>
+				</br>
+				Dept: <span id="t5"> ~>{ User.get("occupation") :} </span>
+				<hr>
+				Skills List:
+				<ul id="t6"> ~>{ User.get("skills") :} </ul>
+			</b><hr>
+	  	</fieldset>
+	</div>
+  </section>
+
+</body>
+<script src="js/ViewModel.js"></script>
+<script src="js/Controller.js"></script>
+</html>

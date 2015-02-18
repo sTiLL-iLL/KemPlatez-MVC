@@ -1,0 +1,58 @@
+
+body {
+	font-family: Calibri;
+	width: 100%;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 15px 12px 8px auto;
+    width: 300px;
+    margin: 50px auto 50px 350px;
+	border-radius: 7px;
+	background: lightgray;
+}
+
+fieldset {
+	width: 283px;
+	margin: 5px auto 2px 2px;
+	padding: 5px;
+}
+
+header {
+	margin-top: 5px;
+	margin-left: 120px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	font-size: xx-large;
+}
+
+span {
+	margin: 3px;
+}
+
+input {
+	margin-top: 2px;
+	margin-bottom: 8px;
+	width: 167px;
+	padding-left: 3px;
+}
+
+.prps {
+	width: 70px;
+}
+
+#btn {
+	width: 22px;
+}
+
+ul {
+	padding-left: 20px;
+	list-style: none;
+	color: navy;
+	overflow-x: hidden;
+}
+
+li {
+	max-width: 180px
+}
