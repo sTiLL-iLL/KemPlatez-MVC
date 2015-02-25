@@ -1,4 +1,5 @@
 
+
 var SeeMe=(function(obj) {
 	var watchd={},mod1=obj||{};
 	function Model (mod1) {
@@ -36,16 +37,15 @@ var SeeMe=(function(obj) {
 	};
 	watchd.prototype.set = function(k, v) {
 		if (v && v !== this.base[k]) {
-			if (v===Array) {
-				this.base[k]=v;	
+			if (k==="skills") {
+				this.base[k].push(v);	
 			} else {
-				this.base[k].push(v);
+				this.base[k]=v;
 			}
 			this.signal("change", this.base);
 		}
 		return this;
 	};
-    watchd = new watchd(mod1);
+    	watchd = new watchd(mod1);
 	return watchd;
 }(Signals));
-
