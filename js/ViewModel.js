@@ -1,6 +1,3 @@
-
-// model
-
 var user = {
 	name1: "Richard",
 	name2: "Longwood",
