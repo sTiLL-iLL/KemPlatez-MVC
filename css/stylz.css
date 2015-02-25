@@ -6,15 +6,14 @@ body {
 
 .container {
     border: 1px solid black;
-    padding: 15px 12px 8px auto;
-    width: 300px;
+    width: 293px;
     margin: 50px auto 50px 350px;
 	border-radius: 7px;
 	background: lightgray;
 }
 
 fieldset {
-	width: 283px;
+	width: 276px;
 	margin: 5px auto 2px 2px;
 	padding: 5px;
 }
@@ -28,18 +27,19 @@ header {
 }
 
 span {
+	font-size: x-large;
 	margin: 3px;
 }
 
 input {
 	margin-top: 2px;
 	margin-bottom: 8px;
-	width: 167px;
+	width: 160px;
 	padding-left: 3px;
 }
 
 .prps {
-	width: 70px;
+	width: 55px;
 }
 
 #btn {
