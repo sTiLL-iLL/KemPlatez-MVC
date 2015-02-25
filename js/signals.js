@@ -1,6 +1,9 @@
 
-// SignalsBest2.js   8;]
 
+/*
+*     Signals.js
+*     v.1.01
+*/
 var Signals = (function() {
     'use strict';
     var sigCache = {}, singleRtnVal = false, 
@@ -132,7 +135,6 @@ var Signals = (function() {
     };
     return {
         signal: castSignal,
-        signaled: received,
         receive: received,
         receiveOnce: signalOnce,
         receivers: receivers,
