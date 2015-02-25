@@ -1,4 +1,5 @@
 
+
 //  Controller.js
 
 var Controller = (function(User, TPEN) {
@@ -26,8 +27,14 @@ var Controller = (function(User, TPEN) {
 	// notice how #5 is already defined
 
 	
-	var Templates = [t1.innerText,t2.innerText,t3.innerText,t4.innerText,t5.innerText,t6.innerText];
-
+	var Templates = [];
+		
+	Templates.push(t1.innerText);
+	Templates.push(t2.innerText);
+	Templates.push(t3.innerText);
+	Templates.push(t4.innerText);
+	Templates.push(t5.innerText);
+	Templates.push(t6.innerText);
 
 	// Now I iterate over the list of nodes and templates,
 	// pull each one out per the array position and plug
