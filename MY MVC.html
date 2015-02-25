@@ -6,7 +6,7 @@
   	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/stylz.css" />
 	<script src="js/signals.js"></script>
-	<script src="js/SeeMe.js"></script>
+	<script src="js/SeeMe.js"></script>	
 	<script src="js/myTPlates.js"></script>
 </head>
 <body>
@@ -30,7 +30,7 @@
 				Dept: <span id="t5"> ~>{ User.get("occupation") :} </span>
 				<hr>
 				Skills List:
-				<ul id="t6"> ~>{ User.get("skills") :} </ul>
+				<ul id="t6"> ~>{ User.iterate("skills") :} </ul>
 			</b><hr>
 	  	</fieldset>
 	</div>
