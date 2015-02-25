@@ -2,7 +2,7 @@
 var SeeMe=(function() {
 	var watchd={},mod1={};
 	function Model (mod1) {
-		this.base = mod1||{};
+		this.base = mod1;
 		this.get = function(k) {
 			if (k) {
 				var u = this.base;
