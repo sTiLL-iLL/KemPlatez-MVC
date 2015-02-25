@@ -36,7 +36,7 @@ var SeeMe=(function(obj) {
 	};
 	watchd.prototype.set = function(k, v) {
 		if (v && v !== this.base[k]) {
-			if (k===Array) {
+			if (v===Array) {
 				this.base[k]=v;	
 			} else {
 				this.base[k].push(v);
